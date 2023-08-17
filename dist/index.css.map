@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css"],
+  "sourcesContent": ["div.RCMAP-tooltip {\n    position: absolute;\n    width: 20rem;\n    transform: translateX(-50%);\n    user-select: text;\n    margin-top: -8px; /* arrowSize * -1 */\n    display: flex;\n    flex-direction: column;\n    align-items: stretch;\n}\n\nspan.RCMAP-tooltip-arrow-outer {\n    display: inline-block;\n    align-self: center;\n    border-color: transparent transparent #ddd;\n    border-width: 10px; /* arrowSize + 2 */\n    border-style: solid;\n}\n\nspan.RCMAP-tooltip-arrow-inner {\n    align-self: center;\n    display: inline-block;\n    margin-top: -16px; /* arrowSize * -2 */\n    border-color: transparent transparent #fff;\n    border-width: 8px; /* arrowSize */\n    border-style: solid;\n    z-index: 1;\n}\n\ndiv.RCMAP-tooltip-body {\n    background: #fff;\n    border: 1px solid #ddd;\n    padding: 0.5rem;\n    box-sizing: border-box;\n    margin-top: -1px;\n}\n"],
+  "mappings": "AAAA,kBACI,kBACA,YACA,0BACA,iBACA,gBACA,aACA,sBACA,oBAGJ,+BACI,qBACA,kBACA,0CACA,kBACA,mBAGJ,+BACI,kBACA,qBACA,iBACA,0CACA,iBACA,mBACA,UAGJ,uBACI,gBACA,sBA/BJ,cAiCI,sBACA",
+  "names": []
+}
