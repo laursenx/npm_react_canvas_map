@@ -1,0 +1,32 @@
+{
+  "files": [
+    "src/index.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "esnext",
+    "types": [],
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "react": ["../demo/node_modules/react"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    ".eslintrc.js"
+  ]
+}
